@@ -1,0 +1,38 @@
+.img-standard {
+  width: 100%;
+  max-width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.canciones,
+.integrantes {
+  background-color: $rojo;
+  color: $dorado;
+  padding: 20px;
+  border-radius: 15px;
+
+  li {
+    margin-bottom: 8px;
+  }
+}
+
+.card {
+  background-color: $rojo;
+  color: $dorado;
+  padding: 25px;
+  border-radius: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+footer {
+  background-color: $rojo;
+  color: $dorado;
+  width: 100%;
+  padding: 25px;
+  text-align: center;
+}

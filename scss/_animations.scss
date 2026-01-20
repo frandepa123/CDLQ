@@ -1,0 +1,23 @@
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.nav-link:hover {
+  animation: link-hover 0.3s forwards;
+}
+
+@keyframes link-hover {
+  from {
+    color: $dorado;
+  }
+  to {
+    color: rgb(255, 223.8372093023, 121);
+  }
+}

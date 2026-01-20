@@ -1,0 +1,44 @@
+.cards {
+  width: fit-content;
+  height: fit-content;
+  background-color: $rojo;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+  gap: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
+}
+
+.socialContainer {
+  width: 52px;
+  height: 52px;
+  background-color: $negro;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition-duration: .3s;
+
+  &:active {
+    transform: scale(0.9);
+    transition-duration: .3s;
+  }
+
+  &:hover .socialSvg {
+    animation: slide-in-top 0.3s both;
+  }
+}
+
+.containerOne:hover { background-color: #d62976; }
+.containerTwo:hover { background-color: #00acee; }
+.containerThree:hover { background-color: #0072b1; }
+.containerFour:hover { background-color: #128C7E; }
+
+.socialSvg {
+  width: 17px;
+
+  path {
+    fill: $blanco;
+  }
+}
